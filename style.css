@@ -254,7 +254,7 @@ body{
 /* navbar */
 
 .navbar{
-  
+  /* display: none; */
 }
 
 .navbar nav{
@@ -283,6 +283,79 @@ body{
 
 .navbar nav div small{
   font-size: 10px;
+}
+
+/* .music-bar */
+
+.music-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a5063;
+  padding: 8px;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 67px;
+  width: 360px;
+}
+
+.music-bar input{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-appearance: none;
+  height: 2px;
+  accent-color: red;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #ff4500;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background .3s ease-in-out;
+}
+
+
+
+.music-info{
+  display: flex;
+  align-items: center;
+}
+
+.music-title{
+  display: block;
+  font-size: 12px;
+}
+
+.music-author{
+  display: block;
+  font-size: 10px;
+}
+
+.music-info img{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.music-icons i{
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.music-icons i:first-child{
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 600px){
