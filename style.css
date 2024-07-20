@@ -362,4 +362,16 @@ input[type="range"]::-webkit-slider-thumb {
   .top-bar h1{
     margin-right: 60px;
   }
+
+  .navbar nav{
+    width: 337px;
+  }
+
+  .music-bar{
+    width: 337px;
+  }
+
+  .card small{
+    font-size: 10px;
+  }
 }
