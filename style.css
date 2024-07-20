@@ -201,7 +201,7 @@ body{
 
 .episode-profile{
   /* border: 1px solid white; */
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .episode-profile h1{
@@ -369,6 +369,24 @@ input[type="range"]::-webkit-slider-thumb {
 
   .music-bar{
     width: 337px;
+  }
+
+  .card small{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .top-bar h1{
+    margin-right: 55px;
+  }
+
+  .navbar nav{
+    width: 310px;
+  }
+
+  .music-bar{
+    width: 310px;
   }
 
   .card small{
